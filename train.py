@@ -77,7 +77,7 @@ def train(model, train_loader, epochs, optimizer, loss_fn, device):
         The loss function used for training.
     :param device:
         Where the model and data should be loaded (gpu or cpu).
-        
+
     """
     
     for epoch in range(1, epochs + 1):
